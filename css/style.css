@@ -11,6 +11,26 @@ nav .col-lg-offset-3 a {
 	font-size: 160%;
 }
 
+nav a:link {
+	font-size: 160%;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
 .montserrat-md {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
