@@ -1,4 +1,22 @@
 nav {
 	background-image: linear-gradient(to right, #2D0575, #4207AF);
-	padding: 5px;
+	padding: 15px;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav .col-lg-offset-3 a {
+	font-size: 160%;
+}
+
+.montserrat-md {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.montserrat-x-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
 }
