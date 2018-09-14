@@ -54,3 +54,39 @@ nav img {
     -webkit-transform: rotate(180deg); /* Safari 3-8 */
     transform: rotate(180deg);
 }
+
+section {
+	position: relative;
+}
+
+.my-dropdown {
+	position: absolute;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-image: linear-gradient(to right, #2D0575, #4207AF);
+}
+
+.my-dropdown a {
+	color: #fff;
+	display: block;
+	font-size: 17px;
+}
+
+
+/*
+.own-dropdown {
+	position: absolute;
+	z-index: 1;
+}
+
+.own-dropdown .col-sm-3 {
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-image: linear-gradient(to right, #2D0575, #4207AF);
+}
+
+.own-dropdown a {
+	color: #fff;
+	display: block;
+	font-size: 17px;
+}*/
