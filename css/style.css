@@ -97,3 +97,9 @@ section {
 	position: relative;
 	bottom: 8px;
 }
+
+h3 {
+	font-size: 28px;
+	color: #fff;
+	line-height: 20px;
+}
