@@ -116,3 +116,12 @@ h3 {
 	height: 50px;
 	display: inline-block;
 }
+
+.social-media i {
+	padding: 8px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #3A16AC;
+}
