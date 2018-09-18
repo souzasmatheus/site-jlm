@@ -92,7 +92,6 @@ section {
 .background {
     height: 100%;
     background-image: linear-gradient(to top, #3A05A4, #3E75DC);
-    z-index: -1;
 }
 
 .video {
@@ -135,6 +134,4 @@ h3 {
 .bkg-img {
 	padding-right: 0;
 	padding-left: 0;
-	/*background-image: url("../img/ipad.jpg");
-	background-size: 100%;*/
 }
