@@ -127,3 +127,7 @@ h3 {
     text-decoration: none;
     color: #3A16AC;
 }
+
+.video {
+	box-shadow: 5px 6px 11px 0px #111;
+}
