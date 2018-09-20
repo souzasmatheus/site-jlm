@@ -142,4 +142,9 @@ h3 {
 	div.links a {
 		font-size: 150%;
 	}
+
+	h3 {
+		font-size: 37px;
+		line-height: 26px;
+	}
 }
