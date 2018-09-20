@@ -80,7 +80,7 @@ section {
 }
 
 .do-display {
-	display: inline-block !important;
+	display: inline !important;
 }
 
 .background {
