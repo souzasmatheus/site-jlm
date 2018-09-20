@@ -4,9 +4,9 @@ class Website {
 	}
 
 	rotateArrow() {
-		$("#arrowDown, nav img").on("click", function() {
-			$("#arrowDown").toggleClass("rotation");
-			$(".my-dropdown").toggleClass("do-display")
+		$("nav i, nav img").on("click", function() {
+			$("nav i").toggleClass("rotation");
+			$(".links").toggleClass("do-display")
 		})
 	}
 

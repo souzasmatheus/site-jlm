@@ -34,16 +34,17 @@ nav a.col-xs-offset-5:hover {
 }
 
 .links {
-	padding-top: 10px;
+	padding-top: 15px;
+	display: none;
 }
 
 div.links a {
 	font-size: 100%;
 }
 
-div.links a:hover {
+/*div.links a:hover {
 	font-size: 140%;
-}
+}*/
 
 nav img {
 	height: 50px;
