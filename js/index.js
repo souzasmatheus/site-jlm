@@ -6,7 +6,8 @@ class Website {
 	rotateArrow() {
 		$("nav i, nav img").on("click", function() {
 			$("nav i").toggleClass("rotation");
-			$(".links").toggleClass("do-display")
+			$(".links").toggleClass("do-display");
+			$("nav").toggleClass("nav-bottom");
 		})
 	}
 
