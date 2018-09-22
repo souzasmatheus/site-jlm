@@ -158,3 +158,21 @@ h3 {
 		font-size: 42px;
 	}
 }
+
+@media (min-width: 992px) {
+	.links {
+		display: inline;
+	}
+
+	div.links a {
+		font-size: 170%;
+	}
+
+	div.links a:hover {
+		font-size: 180%;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}
