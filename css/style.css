@@ -143,6 +143,9 @@ h3 {
 }
 
 @media (min-width: 992px) {
+	body {
+		background-color: #3A05A4
+	}
 
 	.background {
 		background-image: url("../img/canal-dupla-1920w.png");
@@ -186,8 +189,4 @@ h3 {
 		padding-bottom: 10px;
 		color: #3905A4;
 	}
-}
-
-@media (min-width: 1200px) {
-
 }
