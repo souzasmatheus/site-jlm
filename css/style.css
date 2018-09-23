@@ -172,9 +172,19 @@ h3 {
 		text-align: center;
 	}
 
-	h3, .social-icons {
+	.social-media i {
+		color: #3905A4;
+	}
+
+	h3, .social-icons, .video {
 		position: relative;
-		top: 140px;
+		top: 70px;
+	}
+
+	.first-heading {
+		font-size: 45px;
+		padding-bottom: 10px;
+		color: #3905A4;
 	}
 }
 
