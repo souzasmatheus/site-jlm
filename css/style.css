@@ -88,6 +88,7 @@ h3 {
 .social-icons {
 	padding-top: 5%;
 	padding-bottom: 5%;
+	text-align: center;
 }
 
 .social-media {
@@ -160,6 +161,14 @@ h3 {
 
 	div.links a:hover {
 		font-size: 180%;
+	}
+
+	.social-icons {
+		text-align: left;
+	}
+
+	.social-media {
+		text-align: center;
 	}
 }
 
