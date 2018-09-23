@@ -4,7 +4,7 @@
 }*/
 
 body {
-	background-color: #3A05A4;
+	background-color: #3E4BCB;
 }
 
 nav {
@@ -79,13 +79,18 @@ section {
 }
 
 .background {
-    height: 100%;
-    background-image: linear-gradient(to top, #3A05A4, #3D88E5);
+    /*height: 100%;
+    background-image: linear-gradient(to top, #3A05A4, #3D88E5);*/
+	background-image: url("../img/ipad.jpg");
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 
 .video {
 	position: relative;
 	bottom: 8px;
+	box-shadow: 5px 6px 11px 0px #111;
 }
 
 h3 {
@@ -113,11 +118,7 @@ h3 {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: #3A16AC;
-}
-
-.video {
-	box-shadow: 5px 6px 11px 0px #111;
+    color: #3E4BCB;
 }
 
 .bkg-img {
@@ -155,6 +156,14 @@ h3 {
 }
 
 @media (min-width: 992px) {
+
+	.background {
+		background-image: url("../img/canal-dupla-1920w.png");
+		background-size: 100vw;
+		background-repeat: no-repeat;
+		height: 100vh;
+	}
+
 	.links {
 		display: inline;
 	}
@@ -165,6 +174,14 @@ h3 {
 
 	div.links a:hover {
 		font-size: 180%;
+	}
+
+	.teste {
+		padding-left: 60px;
+	}
+
+	.video {
+		bottom: 470px;
 	}
 }
 

@@ -11,7 +11,12 @@ class Website {
 		})
 	}
 
-
+	deleteMobile() {
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		 	$(".remove-md").append('<img src="./img/ipad.jpg" alt="">>')
+		}
+	}
 }
 
-new Website().rotateArrow()
+var jlm = new Website();
+jlm.rotateArrow();
