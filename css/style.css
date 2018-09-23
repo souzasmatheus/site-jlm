@@ -46,18 +46,9 @@ div.links a {
 	font-size: 100%;
 }
 
-/*div.links a:hover {
-	font-size: 140%;
-}*/
-
 nav img {
 	height: 50px;
 }
-
-/*nav i {
-	position: relative;
-	top: 22px;
-}*/
 
 .montserrat-md {
 	font-family: 'Montserrat', sans-serif;
@@ -132,6 +123,10 @@ h3 {
 .bkg-img {
 	padding-right: 0;
 	padding-left: 0;
+}
+
+.bkg-img img {
+	width: 100%;
 }
 
 @media (min-width: 768px) {
